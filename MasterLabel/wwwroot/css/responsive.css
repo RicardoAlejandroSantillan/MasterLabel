@@ -1,0 +1,110 @@
+﻿@media (max-width: 1400px) and (min-width: 768px) {
+    html {
+        font-size: .8rem;
+    }
+
+    input[type="text"], input[type="date"], #address {
+        width: 100%;
+        height: 5%;
+        margin: .5rem .5rem;
+    }
+
+    #address {
+        height: 15%;
+    }
+
+    #description, #address {
+        font-size: .9rem;
+    }
+
+    #order-Number {
+        margin-left: 1rem;
+    }
+
+    #tag-Number {
+        width: 37%;
+        margin-left: 3%;
+    }
+
+    #ship-Code, #irno {
+        width: 25%;
+    }
+
+    #confirm {
+        width: 10vw;
+    }
+
+    #search {
+        width: 8vw;
+    }
+
+    .pichonkun {
+        width: 7rem;
+    }
+
+    .daikinLogo {
+        width: 40rem;
+        height: 7rem;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: .8rem;
+    }
+
+    input[type="text"], input[type="date"], #address {
+        width: 100%;
+        height: 5%;
+        margin: .5rem .5rem;
+    }
+
+    #address {
+        height: 15%;
+    }
+
+    #description, #address {
+        font-size: .9rem;
+    }
+
+    #order-Number {
+        margin-left: 0.3rem;
+    }
+
+    #confirm {
+        width: 13vw;
+        height: 4.5vh;
+        font-size: 1.2rem;
+    }
+
+    #search {
+        width: 13vw;
+        height: 3.5vh;
+        font-size: 1.2rem;
+    }
+
+    .pichonkun {
+        width: 5rem;
+    }
+
+    .daikinLogo {
+        width: 30rem;
+        height: 5rem;
+    }
+
+    #tag-Number {
+        width: 37%;
+    }
+
+    #ship-Code, #irno {
+        width: 25%;
+    }
+
+    .form {
+        width: 150%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5rem;
+        align-items: center;
+    }
+}
