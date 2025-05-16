@@ -1,0 +1,9 @@
+-> Español
+
+MasterLabel es una solución diseñada para llevar un registro estructurado de un error recurrente en el sistema, con el fin de generar un reporte detallado para el equipo de Oracle Support en Estados Unidos.
+El proceso consiste en registrar los incidentes en SQL Server, exportarlos a Excel y crear dashboards dinámicos que permiten visualizar patrones: qué líneas de producción presentan más errores, en qué semanas del mes se concentran, y a qué línea corresponde cada impresión afectada.
+
+-> English
+
+MasterLabel is a solution developed to track a recurring system issue and generate a detailed report for the Oracle Support team in the United States.
+The process involves logging incidents in SQL Server, exporting the data to Excel, and building dynamic dashboards to identify patterns—such as which production lines face more frequent issues, the most active weeks, and the line responsible for each affected print.
