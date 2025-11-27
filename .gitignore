@@ -39,3 +39,9 @@ publish/
 # ===== Node (por si acaso) =====
 node_modules/
 dist/
+
+MasterLabel/.config/
+MasterLabel/Properties/PublishProfiles/
+MasterLabel/*.csproj.user
+*.sql
+Read Me.txt
