@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.Net.Http;
 using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using System.Net.Http.Headers;
+using System.Text;
 
 namespace MasterLabel.Controllers
 {

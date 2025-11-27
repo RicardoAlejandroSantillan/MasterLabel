@@ -1,47 +1,32 @@
-# ===== Visual Studio =====
 .vs/
+.vscode/
+.idea/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-
-# ===== Build results =====
-[Dd]ebug/
-[Rr]elease/
 bin/
 obj/
-
-# ===== .NET =====
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
 *.dll
 *.exe
 *.pdb
 *.cache
 *.deps.json
 *.runtimeconfig.json
-
-# ===== Rider / VSCode =====
-.idea/
-.vscode/
-
-# ===== Logs =====
 *.log
-
-# ===== OS =====
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# ===== Publish & Packages =====
-publish/
 *.nupkg
 *.snupkg
-
-# ===== Node (por si acaso) =====
-node_modules/
-dist/
-
-MasterLabel/.config/
+.nuget/
+publish/
 MasterLabel/Properties/PublishProfiles/
+MasterLabel/.config/
 MasterLabel/*.csproj.user
 *.sql
 Read Me.txt

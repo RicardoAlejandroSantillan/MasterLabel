@@ -1,4 +1,5 @@
-﻿$(document).ready(function () {
+﻿/*Search btn */
+$(document).ready(function () {
     $('#search').click(function () {
         const serialNumber = $('#serial-Number').val();
         const today = new Date();
@@ -60,7 +61,7 @@
         });
     });
 
-    // Nuevo código para el botón Confirm
+    // btn Confirm
     $('#confirm').click(function () {
         const labelData = {
             SerialNumber: $('#serial-Number').val(),
@@ -86,8 +87,6 @@
             success: function (response) {
                 if (response.success) {
                     alert('Datos guardados correctamente');
-                    // Opcional: limpiar el formulario después de guardar
-                    // $('.form input, .form textarea').val('');
                 } else {
                     alert('Error al guardar los datos: ' + response.message);
                 }
@@ -98,7 +97,6 @@
         });
     });
 
-    // Manejar la tecla Enter en el campo de serial number
     $('#serial-Number').keypress(function (e) {
         if (e.which == 13) {
             $('#search').click();
