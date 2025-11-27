@@ -1,0 +1,41 @@
+# ===== Visual Studio =====
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ===== Build results =====
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# ===== .NET =====
+*.dll
+*.exe
+*.pdb
+*.cache
+*.deps.json
+*.runtimeconfig.json
+
+# ===== Rider / VSCode =====
+.idea/
+.vscode/
+
+# ===== Logs =====
+*.log
+
+# ===== OS =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===== Publish & Packages =====
+publish/
+*.nupkg
+*.snupkg
+
+# ===== Node (por si acaso) =====
+node_modules/
+dist/
